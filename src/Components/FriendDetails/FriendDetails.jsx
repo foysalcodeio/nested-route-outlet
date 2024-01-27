@@ -1,4 +1,5 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
+import './FriendDetails.css'
 
 const FriendDetails = () => {
     const friend = useLoaderData();
