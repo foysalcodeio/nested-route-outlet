@@ -1,9 +1,14 @@
+import { useLoaderData } from "react-router-dom";
 
-const FriendDetails = ({ friendId}) => {
-    console.log(friendId)
+const FriendDetails = () => {
+    const friend = useLoaderData();
+    console.log(friend)
+
     return (
         <div>
-            <h3>Everything are friends : {friendId}</h3>
+            <h1>Name : {friend.name}</h1>
+            <h2>Email : {friend.email}</h2>
+            <h2>Web : {friend.website}</h2>
         </div>
     );
 };
