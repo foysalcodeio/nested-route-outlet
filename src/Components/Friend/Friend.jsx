@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Friend.css'
 const Friend = ({ friend }) => {
-    console.log(friend)
+    // console.log(friend)
 
     const {id, name, email} = friend
     return (
