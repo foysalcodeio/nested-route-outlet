@@ -7,3 +7,8 @@
 // step 2 : <Link to ="">
 // step 3 : <ActiveLink to=""></ActiveLink>
 
+
+// const handleNavigation = () => {
+//         navigate(`/friend/${id}`)
+//     }
+
